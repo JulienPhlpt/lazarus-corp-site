@@ -88,6 +88,8 @@ footer a:hover,footer a[aria-current]{color:var(--encre)}
 }
 
 /* Accessibilité */
+/* Masqué à l'écran, lu par les lecteurs d'écran */
+.masque{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 .evitement{position:absolute;left:1rem;top:-6rem;z-index:10;padding:.75rem 1.25rem;background:var(--encre);color:var(--papier);font-weight:700;text-decoration:none}
 .evitement:focus{top:1rem}
 :focus-visible{outline:2px solid var(--encre);outline-offset:3px;border-radius:1px}
