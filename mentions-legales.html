@@ -35,10 +35,11 @@
 <h2>Données personnelles</h2>
 <p>Voir la <a href="/confidentialite.html">politique de confidentialité</a>.</p>
 </div></main>
-<footer><div class="wrap"><p>© 2026 Lazarus Corp — SARL au capital de 1 000 € — Nantes</p>
+<footer><div class="wrap"><p>© <span id="annee">2026</span> Lazarus Corp — SARL au capital de 1 000 € — Nantes</p>
 <nav aria-label="Informations légales"><ul>
 <li><a href="/mentions-legales.html" aria-current="page">Mentions légales</a></li>
 <li><a href="/confidentialite.html">Politique de confidentialité</a></li>
 <li><a href="/support.html">Support</a></li>
 </ul></nav></div></footer>
+<script>document.getElementById("annee").textContent=new Date().getFullYear()</script>
 </body></html>
