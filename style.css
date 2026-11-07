@@ -16,7 +16,7 @@
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;background:var(--papier);color:var(--encre);font:400 1rem/1.7 var(--serif);font-variant-numeric:lining-nums;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--papier);color:var(--encre);font:400 1rem/1.7 var(--serif);overflow-wrap:break-word;-webkit-font-smoothing:antialiased}
 @media (min-width:40em){body{font-size:1.0625rem}}
 ::selection{background:var(--encre);color:var(--papier)}
 
