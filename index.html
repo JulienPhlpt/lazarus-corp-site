@@ -1,21 +1,44 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lazarus Corp — Nantes</title><meta name="description" content="Lazarus Corp, société basée à Nantes : holding, conseil et édition d’applications mobiles."><link rel="stylesheet" href="/style.css"></head>
-<body><header><div class="wrap"><a class="logo" href="/">LAZARUS CORP</a><nav>
-<a href="/" aria-current="page">Accueil</a><a href="/support.html">Support</a><a href="/mentions-legales.html">Mentions légales</a></nav></div></header>
-<main><div class="wrap">
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark">
+<title>Lazarus Corp — Nantes</title><meta name="description" content="Lazarus Corp, société basée à Nantes : holding, conseil, design et développement d’applications iOS."><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="preload" href="/fonts/libre-baskerville-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/style.css"></head>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header><div class="wrap"><a class="logo" href="/"><svg class="monogramme" viewBox="0 0 775 800" aria-hidden="true"><path transform="translate(0 785) scale(1 -1)" d="M35 0V40Q80 42 102 50Q125 59 132 83Q140 107 140 154V616Q140 663 133 686Q126 710 106 719Q86 728 46 730V770H391V730Q346 729 324 720Q302 710 294 685Q287 660 287 609V190Q287 134 304 105Q320 76 360 66Q399 55 468 55Q545 55 590 69Q636 83 660 120Q685 157 700 227H740L724 0Z"/></svg><span class="masque">Lazarus Corp</span></a>
+<nav aria-label="Navigation principale"><ul>
+<li><a href="/" aria-current="page">Accueil</a></li>
+<li><a href="/support.html">Support</a></li>
+<li><a href="/mentions-legales.html">Mentions légales</a></li>
+</ul></nav></div></header>
+<main id="contenu" tabindex="-1"><div class="wrap">
 
+<div class="intro">
 <h1>Lazarus Corp</h1>
-<p class="lead">Société à responsabilité limitée basée à Nantes, Lazarus Corp exerce une activité de holding et de conseil, et prépare l’édition de sa première application mobile.</p>
-<div class="cards">
-<div class="card"><h3>Holding</h3><p>Détention et gestion de participations dans des sociétés.</p></div>
-<div class="card"><h3>Conseil</h3><p>Conseil de gestion et assistance opérationnelle aux entreprises.</p></div>
-<div class="card"><h3>Applications mobiles</h3><p>Une application iOS dédiée à la gestion équine est en préparation.</p></div>
+<p class="lead">Société à responsabilité limitée basée à Nantes, Lazarus Corp exerce une activité de holding et de conseil, et conçoit et développe des applications iOS.</p>
 </div>
+
+<section class="bloc">
+<h2>Activités</h2>
+<ol class="activites">
+<li><h3>Holding</h3><p>Détention et gestion de participations dans des sociétés.</p></li>
+<li><h3>Conseil</h3><p>Conseil de gestion et assistance opérationnelle aux entreprises.</p></li>
+<li><h3>Applications mobiles</h3><p>Design et développement d’applications iOS.</p></li>
+</ol>
+</section>
+
+<section class="bloc">
 <h2>Nous contacter</h2>
-<p>Par e-mail : <a href="mailto:julien@lazarus-corp.fr">julien@lazarus-corp.fr</a><br>
-Par courrier : Lazarus Corp, 17 rue Mathurin Brissonneau, 44100 Nantes, France</p>
+<address class="contact">
+<p><span class="libelle">Par e-mail</span> <a href="mailto:julien@lazarus-corp.fr">julien@lazarus-corp.fr</a></p>
+<p><span class="libelle">Par courrier</span> Lazarus Corp<br>17 rue Mathurin Brissonneau<br>44100 Nantes, France</p>
+</address>
+</section>
 </div></main>
-<footer><div class="wrap"><p>© 2026 Lazarus Corp — SARL au capital de 1 000 € — Nantes</p>
-<a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html">Politique de confidentialité</a><a href="/support.html">Support</a></div></footer>
+<footer><div class="wrap"><p>© <span id="annee">2026</span> Lazarus Corp — SARL au capital de 1 000 € — Nantes</p>
+<nav aria-label="Informations légales"><ul>
+<li><a href="/mentions-legales.html">Mentions légales</a></li>
+<li><a href="/confidentialite.html">Politique de confidentialité</a></li>
+<li><a href="/support.html">Support</a></li>
+<li><a href="/accessibilite.html">Accessibilité</a></li>
+</ul></nav></div></footer>
+<script>document.getElementById("annee").textContent=new Date().getFullYear()</script>
 </body></html>
